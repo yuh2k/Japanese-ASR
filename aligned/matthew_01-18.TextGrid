@@ -1,0 +1,44 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 13.294694 
+tiers? <exists> 
+size = 2 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "words" 
+        xmin = 0 
+        xmax = 13.294694 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.19 
+            text = "" 
+        intervals [2]:
+            xmin = 1.19 
+            xmax = 12.46 
+            text = "こうして全部合わせるとアブラハムからダビデまで十四代ダビデからバビロンへの移住まで十四代バビロンへ移されてからキリストまでが十四代である" 
+        intervals [3]:
+            xmin = 12.46 
+            xmax = 13.294694 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "phones" 
+        xmin = 0 
+        xmax = 13.294694 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.19 
+            text = "" 
+        intervals [2]:
+            xmin = 1.19 
+            xmax = 12.46 
+            text = "spn" 
+        intervals [3]:
+            xmin = 12.46 
+            xmax = 13.294694 
+            text = "" 

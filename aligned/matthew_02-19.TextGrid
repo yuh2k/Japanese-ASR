@@ -1,0 +1,44 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 17.646259 
+tiers? <exists> 
+size = 2 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "words" 
+        xmin = 0 
+        xmax = 17.646259 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.68 
+            text = "" 
+        intervals [2]:
+            xmin = 0.68 
+            xmax = 17.38 
+            text = "さてヘロデは占星術の学者たちにだまされたと知って大いに怒ったそして人を送り学者たちに確かめておいた時期に基づいてベツレヘムとその周辺一帯にいた二歳以下の男の子を一人残らず殺させた" 
+        intervals [3]:
+            xmin = 17.38 
+            xmax = 17.646259 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "phones" 
+        xmin = 0 
+        xmax = 17.646259 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.68 
+            text = "" 
+        intervals [2]:
+            xmin = 0.68 
+            xmax = 17.38 
+            text = "spn" 
+        intervals [3]:
+            xmin = 17.38 
+            xmax = 17.646259 
+            text = "" 

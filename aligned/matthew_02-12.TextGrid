@@ -1,0 +1,44 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 13.806621 
+tiers? <exists> 
+size = 2 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "words" 
+        xmin = 0 
+        xmax = 13.806621 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.67 
+            text = "" 
+        intervals [2]:
+            xmin = 0.67 
+            xmax = 13.62 
+            text = "家に入ってみると幼子は母マリアと共におられた彼らはひれ伏して幼子を拝み宝の箱を開けて黄金乳香没薬を贈り物として献げた" 
+        intervals [3]:
+            xmin = 13.62 
+            xmax = 13.806621 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "phones" 
+        xmin = 0 
+        xmax = 13.806621 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.67 
+            text = "" 
+        intervals [2]:
+            xmin = 0.67 
+            xmax = 13.62 
+            text = "spn" 
+        intervals [3]:
+            xmin = 13.62 
+            xmax = 13.806621 
+            text = "" 

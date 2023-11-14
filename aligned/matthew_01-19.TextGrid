@@ -1,0 +1,64 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 17.646259 
+tiers? <exists> 
+size = 2 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "words" 
+        xmin = 0 
+        xmax = 17.646259 
+        intervals: size = 4 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.37 
+            text = "" 
+        intervals [2]:
+            xmin = 1.37 
+            xmax = 1.67 
+            text = "イエス" 
+        intervals [3]:
+            xmin = 1.67 
+            xmax = 16.73 
+            text = "キリストの誕生の次第は次のようであった母マリアはヨセフと婚約していたが二人が一緒になる前に聖霊によって身ごもっていることが明らかになった" 
+        intervals [4]:
+            xmin = 16.73 
+            xmax = 17.646259 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "phones" 
+        xmin = 0 
+        xmax = 17.646259 
+        intervals: size = 7 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.37 
+            text = "" 
+        intervals [2]:
+            xmin = 1.37 
+            xmax = 1.42 
+            text = "i" 
+        intervals [3]:
+            xmin = 1.42 
+            xmax = 1.45 
+            text = "e" 
+        intervals [4]:
+            xmin = 1.45 
+            xmax = 1.5 
+            text = "s" 
+        intervals [5]:
+            xmin = 1.5 
+            xmax = 1.67 
+            text = "ɨ" 
+        intervals [6]:
+            xmin = 1.67 
+            xmax = 16.73 
+            text = "spn" 
+        intervals [7]:
+            xmin = 16.73 
+            xmax = 17.646259 
+            text = "" 

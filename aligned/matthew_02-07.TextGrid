@@ -1,0 +1,44 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 13.294694 
+tiers? <exists> 
+size = 2 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "words" 
+        xmin = 0 
+        xmax = 13.294694 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.89 
+            text = "" 
+        intervals [2]:
+            xmin = 0.89 
+            xmax = 13.04 
+            text = "ユダの地ベツレヘムよお前はユダの指導者たちの中で決していちばん小さいものではないお前から指導者が現れわたしの民イスラエルの牧者となるからである" 
+        intervals [3]:
+            xmin = 13.04 
+            xmax = 13.294694 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "phones" 
+        xmin = 0 
+        xmax = 13.294694 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.89 
+            text = "" 
+        intervals [2]:
+            xmin = 0.89 
+            xmax = 13.04 
+            text = "spn" 
+        intervals [3]:
+            xmin = 13.04 
+            xmax = 13.294694 
+            text = "" 

@@ -1,0 +1,44 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 14.830522 
+tiers? <exists> 
+size = 2 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "words" 
+        xmin = 0 
+        xmax = 14.830522 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.87 
+            text = "" 
+        intervals [2]:
+            xmin = 0.87 
+            xmax = 14.11 
+            text = "このように考えていると主の天使が夢に現れて言ったダビデの子ヨセフ恐れず妻マリアを迎え入れなさいマリアの胎の子は聖霊によって宿ったのである" 
+        intervals [3]:
+            xmin = 14.11 
+            xmax = 14.830522 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "phones" 
+        xmin = 0 
+        xmax = 14.830522 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.87 
+            text = "" 
+        intervals [2]:
+            xmin = 0.87 
+            xmax = 14.11 
+            text = "spn" 
+        intervals [3]:
+            xmin = 14.11 
+            xmax = 14.830522 
+            text = "" 
