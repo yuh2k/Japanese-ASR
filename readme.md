@@ -26,6 +26,6 @@ For alignment, we utilized the Montreal Forced Aligner with the Japanese MFA dic
 •	Japanese is not our mother language, manually matching the text files and sound files is really time consuming. 
 
 # File Structure
--	./sounds: Sound files 
--	./transcripts: Transcript files
--	./aligned: TextGrid files
+-	sounds: Sound files 
+-	transcripts: Transcript files
+-	aligned: TextGrid files
