@@ -8,20 +8,19 @@ The original sound recordings are from Bible.is (bible.is), Japanese New Interco
 For alignment, we utilized the Montreal Forced Aligner with the Japanese MFA dictionary v2.0.0 and the Japanese MFA acoustic model v2_0_1a, which facilitated the creation of TextGrid files. This forced alignment ensured precise synchronization between audio and text, forming a reliable foundation for ASR development.
 
 # Metadata Description
-• Language: Standard Japanese
-
-• Content:
+## Language: Standard Japanese
+## Content:
   -  Matthew Chapter 1 and Chapter 2 of Bible
   -  Sound files from Mozilla Common Voice
   -  Common Voice Delta Segment 11.0
   -  Common Voice Delta Segment 15.0
-• Speaker: Multiple male speaker
+## Speaker: Multiple male speaker
   -  Bible narrator
   -  Characters appearing in Japanese TV news videos
   -  TV host/narrator
   -  Several Japanese sound contributors on the internet
-• Duration: 3894.677 secs (approximately 65min)
-• Format: 770 WAV sound files, 770 TXT transcripts files, 768 TextGrid Files
+## Duration: 3894.677 secs (approximately 65min)
+## Format: 770 WAV sound files, 770 TXT transcripts files, 768 TextGrid Files
 
 # Strengths and Weaknesses
 ## Strengths:
