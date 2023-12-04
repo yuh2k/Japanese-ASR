@@ -1,0 +1,28 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 4.224 
+tiers? <exists> 
+size = 2 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "words" 
+        xmin = 0 
+        xmax = 4.224 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 4.224 
+            text = "父が花に水をやるのを手伝った" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "phones" 
+        xmin = 0 
+        xmax = 4.224 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 4.224 
+            text = "spn" 

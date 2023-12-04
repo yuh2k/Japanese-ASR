@@ -1,0 +1,44 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 7.956 
+tiers? <exists> 
+size = 2 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "words" 
+        xmin = 0 
+        xmax = 7.956 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.86 
+            text = "" 
+        intervals [2]:
+            xmin = 0.86 
+            xmax = 7.41 
+            text = "ラグナグ国と日本国とは絶えず行き来しているのですからこのストラルドブラグの話ももしかすると日本の人が本に書いているかもしれません" 
+        intervals [3]:
+            xmin = 7.41 
+            xmax = 7.956 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "phones" 
+        xmin = 0 
+        xmax = 7.956 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.86 
+            text = "" 
+        intervals [2]:
+            xmin = 0.86 
+            xmax = 7.41 
+            text = "spn" 
+        intervals [3]:
+            xmin = 7.41 
+            xmax = 7.956 
+            text = "" 

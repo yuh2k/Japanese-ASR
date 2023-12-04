@@ -1,0 +1,44 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 9.288 
+tiers? <exists> 
+size = 2 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "words" 
+        xmin = 0 
+        xmax = 9.288 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.27 
+            text = "" 
+        intervals [2]:
+            xmin = 0.27 
+            xmax = 8.59 
+            text = "愛情のためです心配からですとおかみはいいフリーダの頭を自分の身体に引きよせたフリーダは立っているのに坐っているおかみの肩のところまで" 
+        intervals [3]:
+            xmin = 8.59 
+            xmax = 9.288 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "phones" 
+        xmin = 0 
+        xmax = 9.288 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.27 
+            text = "" 
+        intervals [2]:
+            xmin = 0.27 
+            xmax = 8.59 
+            text = "spn" 
+        intervals [3]:
+            xmin = 8.59 
+            xmax = 9.288 
+            text = "" 

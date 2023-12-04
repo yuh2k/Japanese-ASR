@@ -1,0 +1,44 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 6.948 
+tiers? <exists> 
+size = 2 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "words" 
+        xmin = 0 
+        xmax = 6.948 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.4 
+            text = "" 
+        intervals [2]:
+            xmin = 1.4 
+            xmax = 6.25 
+            text = "濁流を突破した山賊の囲みからもするりと抜けて一気に峠を駈け降りて来たのだ" 
+        intervals [3]:
+            xmin = 6.25 
+            xmax = 6.948 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "phones" 
+        xmin = 0 
+        xmax = 6.948 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.4 
+            text = "" 
+        intervals [2]:
+            xmin = 1.4 
+            xmax = 6.25 
+            text = "spn" 
+        intervals [3]:
+            xmin = 6.25 
+            xmax = 6.948 
+            text = "" 

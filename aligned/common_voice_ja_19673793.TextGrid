@@ -1,0 +1,36 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 6.216 
+tiers? <exists> 
+size = 2 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "words" 
+        xmin = 0 
+        xmax = 6.216 
+        intervals: size = 2 
+        intervals [1]:
+            xmin = 0 
+            xmax = 5.13 
+            text = "真昼の太陽がテニスコートを目も眩むほどに照らしあげた" 
+        intervals [2]:
+            xmin = 5.13 
+            xmax = 6.216 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "phones" 
+        xmin = 0 
+        xmax = 6.216 
+        intervals: size = 2 
+        intervals [1]:
+            xmin = 0 
+            xmax = 5.13 
+            text = "spn" 
+        intervals [2]:
+            xmin = 5.13 
+            xmax = 6.216 
+            text = "" 

@@ -1,0 +1,44 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 10.152 
+tiers? <exists> 
+size = 2 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "words" 
+        xmin = 0 
+        xmax = 10.152 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.43 
+            text = "" 
+        intervals [2]:
+            xmin = 0.43 
+            xmax = 9.42 
+            text = "村は深い雪のなかに横たわっていた城の山は全然見えず霧と闇とが山を取り巻いていて大きな城のありかを示すほんの微かな光さえも射していなかった" 
+        intervals [3]:
+            xmin = 9.42 
+            xmax = 10.152 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "phones" 
+        xmin = 0 
+        xmax = 10.152 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.43 
+            text = "" 
+        intervals [2]:
+            xmin = 0.43 
+            xmax = 9.42 
+            text = "spn" 
+        intervals [3]:
+            xmin = 9.42 
+            xmax = 10.152 
+            text = "" 

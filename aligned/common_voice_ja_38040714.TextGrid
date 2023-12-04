@@ -1,0 +1,44 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 9.072 
+tiers? <exists> 
+size = 2 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "words" 
+        xmin = 0 
+        xmax = 9.072 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.26 
+            text = "" 
+        intervals [2]:
+            xmin = 0.26 
+            xmax = 8.3 
+            text = "ところが印度王はシモン王のことを聞いてすっかりその考えをまねてしまいましたそしてそればかりでなく自分の方でいろいろと工夫しました" 
+        intervals [3]:
+            xmin = 8.3 
+            xmax = 9.072 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "phones" 
+        xmin = 0 
+        xmax = 9.072 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.26 
+            text = "" 
+        intervals [2]:
+            xmin = 0.26 
+            xmax = 8.3 
+            text = "spn" 
+        intervals [3]:
+            xmin = 8.3 
+            xmax = 9.072 
+            text = "" 

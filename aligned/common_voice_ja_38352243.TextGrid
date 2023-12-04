@@ -1,0 +1,44 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 8.568 
+tiers? <exists> 
+size = 2 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "words" 
+        xmin = 0 
+        xmax = 8.568 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.71 
+            text = "" 
+        intervals [2]:
+            xmin = 0.71 
+            xmax = 7.43 
+            text = "まあ二人はなんていう恰好でここに寝ているんでしょうと女中の一人がいって同情の気持から彼らの上に一枚の布を投げかけた" 
+        intervals [3]:
+            xmin = 7.43 
+            xmax = 8.568 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "phones" 
+        xmin = 0 
+        xmax = 8.568 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.71 
+            text = "" 
+        intervals [2]:
+            xmin = 0.71 
+            xmax = 7.43 
+            text = "spn" 
+        intervals [3]:
+            xmin = 7.43 
+            xmax = 8.568 
+            text = "" 
