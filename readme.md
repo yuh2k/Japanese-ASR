@@ -9,6 +9,7 @@ For alignment, we utilized the Montreal Forced Aligner with the Japanese MFA dic
 
 # Metadata Description
 • Language: Standard Japanese
+
 • Content:
   -  Matthew Chapter 1 and Chapter 2 of Bible
   -  Sound files from Mozilla Common Voice
