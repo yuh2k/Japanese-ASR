@@ -5,70 +5,51 @@ Authors: Yuanhuan Deng (yuanhuandeng@brandeis.edu) & Hang Yu (yuh@brandeis.edu)
 
 This project aims to enhance speech recognition capabilities within the Japanese language using the Whisper medium model. It focuses on the importance of text conversion in ASR systems, particularly for languages with complex scripts like Japanese. Our research outlines the challenges of multilingual ASR application and proposes solutions to improve transcription accuracy.
 
-## Table of Contents
-[Installation](## Installation and Dependencies)
-Usage
-Contributing
-Evaluation
-Results
-Conclusion
-License
-Contact
+## How to Run this Programme
 
-## Installation and Dependencies
+### Step 1: Installation and Dependencies
 
 To install the necessary dependencies for this project, ensure you have Python and pip installed on your machine. Then, run the following command:
 ```
-pip install transformers==4.30.1 torch==2.10+cu121 evaluate==0.30 datasets==2.6.1 fugashi librosa jiwer gradio
+!pip install datasets>=2.6.1
+!pip install git+https://github.com/huggingface/transformers
+!pip install librosa
+!pip install evaluate>=0.30
+!pip install jiwer
+!pip install gradio
 ```
+### Step 2: Copy the Training Script
+Copy the [train_1214.py](https://github.com/yuh2k/Japanese-ASR/blob/main/train_1214.py) script into your Google Colab notebook. You can do this by pasting the code directly into a cell or by using Google Colab's file upload feature.
 
-# Alignment and Processing
+### Step 3: Prepare the Dataset
+Place your dataset in a directory on your Google Drive for easy access.
 
-For alignment, we utilized the Montreal Forced Aligner with the Japanese MFA dictionary v2.0.0 and the Japanese MFA acoustic model v2_0_1a, which facilitated the creation of TextGrid files. This forced alignment ensured precise synchronization between audio and text, forming a reliable foundation for ASR development.
+### Step 4: Mount Google Drive
+To access the dataset from your Google Colab notebook, mount your Google Drive using the following command in a cell:
+```from google.colab import drive
+drive.mount('/content/drive')
+```
+Follow the prompts to authorize access to your Google Drive.
 
-# Metadata Description
+### Step 5: Adjust Parameters
+Before running the training script, adjust the hyperparameters based on your machine's performance capabilities and your specific training needs. Edit the train_1214.py script accordingly.
+
+### Step 6: Start Training
+Execute the training script in a cell with the following command:
+
+```
+!python /content/drive/MyDrive/path_to_your_script/train_1214.py
+```
+Replace path_to_your_script with the actual path to the train_1214.py script in your Google Drive.
+
+## Evaluation
+We evaluate the model using the following metrics:
+
+·**Training Loss:** Indicates how well the model is learning from the training data.
+·**Validation Loss:** Assesses the model's ability to generalize to new data.
+·**WER:** Measures the accuracy of the model's transcriptions.
 
 ## Language: Standard Japanese
 
-## Content:
-
-  -  Matthew Chapter 1 and Chapter 2 of Bible
-  -  Sound files from Mozilla Common Voice
-  -  Common Voice Delta Segment 11.0
-  -  Common Voice Delta Segment 15.0
-
-## Speaker: Multiple male speaker
-
-  -  Bible narrator
-  -  Characters appearing in Japanese TV news videos
-  -  TV host/narrator
-  -  Several Japanese sound contributors on the internet
-
-## Duration: 
-
-3894.677 secs (approximately 65min)
-
-### Format: 
-
-770 WAV sound files, 770 TXT transcripts files, 768 TextGrid Files
-
-# Strengths and Weaknesses
-
-## Strengths:
-
-•	Japanese has a relatively small set of phonemes and a consistent phonetic system, making pronunciation predictable and recognition potentially more accurate. 
-•	High-quality and consistent audio recordings.
-•	The corpus is scalable because the sound files of Holy Bible are sufficient, we can enlarge it as needed.
-
-## Weaknesses:
-
-•	Limited vocabulary from biblical content.
-•	Single speaker and gender representation, need more sounds of female narrator in the future.
-•	There is an absence of modern colloquialism.
-•	Japanese is not our mother language, manually matching the text files and sound files is really time consuming. 
-
-# File Structure
-
--	sounds: Sound files 
--	transcripts: Transcript files
--	aligned: TextGrid files
+## Conclusion
+We conclude that incorporating a conversion step in the ASR process for languages like Japanese is essential. Despite the high WER, we identify potential improvement areas such as increased data and extended training steps.
