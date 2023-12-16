@@ -8,8 +8,7 @@ We developed a Japanese language corpus for ASR from the Matthew, chapters 1 and
 # Installation and Dependencies
 
 To install the necessary dependencies for this project, ensure you have Python and pip installed on your machine. Then, run the following command:
-
-pip install transformers==4.30.1 torch==2.10+cu121 evaluate==0.30 datasets==2.6.1 fugashi librosa jiwer gradio
+```pip install transformers==4.30.1 torch==2.10+cu121 evaluate==0.30 datasets==2.6.1 fugashi librosa jiwer gradio
 
 # Alignment and Processing
 
