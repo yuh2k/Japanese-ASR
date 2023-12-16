@@ -1,11 +1,21 @@
 # Japanese Recognition in ASR Based on Whisper Medium Model and the Importance of Text Conversion Process in Multilingual Application
 Authors: Yuanhuan Deng (yuanhuandeng@brandeis.edu) & Hang Yu (yuh@brandeis.edu)
 
-# Overview
+## Overview
 
-We developed a Japanese language corpus for ASR from the Matthew, chapters 1 and 2 of Holy Bible, and public datasets on Mozilla Common Voice.
+This project aims to enhance speech recognition capabilities within the Japanese language using the Whisper medium model. It focuses on the importance of text conversion in ASR systems, particularly for languages with complex scripts like Japanese. Our research outlines the challenges of multilingual ASR application and proposes solutions to improve transcription accuracy.
 
-# Installation and Dependencies
+## Table of Contents
+[Installation](## Installation and Dependencies)
+Usage
+Contributing
+Evaluation
+Results
+Conclusion
+License
+Contact
+
+## Installation and Dependencies
 
 To install the necessary dependencies for this project, ensure you have Python and pip installed on your machine. Then, run the following command:
 ```
