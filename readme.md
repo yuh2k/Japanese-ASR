@@ -1,10 +1,15 @@
+# Japanese Recognition in ASR Based on Whisper Medium Model and the Importance of Text Conversion Process in Multilingual Application
+Authors: Yuanhuan Deng (yuanhuandeng@brandeis.edu) & Hang Yu (yuh@brandeis.edu)
+
 # Overview
 
 We developed a Japanese language corpus for ASR from the Matthew, chapters 1 and 2 of Holy Bible, and public datasets on Mozilla Common Voice.
 
-# Corpus Composition and Collection
+# Installation and Dependencies
 
-The original sound recordings are from Bible.is (bible.is), Japanese New Interconfessional Version, and public datasets on Mozilla Common Voice(https://commonvoice.mozilla.org, Common Voice is a crowdsourcing project started by Mozilla to create a free database for speech recognition software, supported by volunteers who record sample sentences with a microphone and review recordings of other users.) The corpus consists of 770 WAV audio files paired with their transcripts, totaling 3894.677 seconds of spoken Japanese by a single male speaker. Initial processing involved manually segmenting the biblical text into sentences to maintain a length of 2-10 seconds per audio clip. Subsequent transcription of each audio segment ensured accurate text representation.
+To install the necessary dependencies for this project, ensure you have Python and pip installed on your machine. Then, run the following command:
+
+pip install transformers==4.30.1 torch==2.10+cu121 evaluate==0.30 datasets==2.6.1 fugashi librosa jiwer gradio
 
 # Alignment and Processing
 
