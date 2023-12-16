@@ -26,7 +26,8 @@ Place your dataset in a directory on your Google Drive for easy access.
 
 ### Step 4: Mount Google Drive
 To access the dataset from your Google Colab notebook, mount your Google Drive using the following command in a cell:
-```from google.colab import drive
+```
+from google.colab import drive
 drive.mount('/content/drive')
 ```
 Follow the prompts to authorize access to your Google Drive.
